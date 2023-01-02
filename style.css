@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+.fireworks {
+  position: fixed;
+}
+.content {
+  width: 80%;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  font-size: 5.5rem;
+  line-height: 1.01em;
+}
+.content h1 em {
+  color: #fff;
+}
+.content h1 em i {
+  color: transparent;
+  -webkit-text-stroke: 5px rgb(255, 0, 0);
+  font-size: 5rem;
+}
